@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-color" title="Profile" scroll>
             <Navigation>
                 <Link to="/">About</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/projects">Projects</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Profile">
             <Navigation>
                 <Link to="/">About</Link>
                 <Link to="/contact">Contact</Link>
